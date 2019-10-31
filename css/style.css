@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+* {
+  box-sizing: border-box; }
+
+body {
+  font: 14px Open Sans, sans-serif;
+  margin: 0; }
+
+.wrapper {
+  max-width: 1440px;
+  min-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden; }
+
+header {
+  background-color: #1c2127; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 100%; }
+  nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; }
+  nav li a {
+    text-decoration: none; }
+  nav .head-logo {
+    margin-left: 120px; }
+    nav .head-logo li:last-child {
+      margin: 8px 0 7px 57px; }
+  nav .head-list {
+    margin-right: 120px; }
+    nav .head-list li {
+      margin-right: 32px;
+      position: relative; }
+      nav .head-list li a {
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 23px;
+        text-transform: uppercase;
+        padding: 8px; }
+      nav .head-list li a:hover {
+        border-bottom: 1px solid #e45144; }
+      nav .head-list li button {
+        background: linear-gradient(220.97deg, #ea344a 0%, #ff6347 52.94%, #f15d44 100%);
+        border: 0;
+        padding: 0;
+        height: 32px;
+        width: 115px;
+        border-radius: 7px;
+        outline: 0;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 23px;
+        text-transform: uppercase; }
+    nav .head-list li:last-child {
+      margin-right: 0; }
+    nav .head-list .mn-vp::after {
+      content: url(../img/icon/arrow_mini-2.svg);
+      position: absolute;
+      top: 3px; }
+
+main {
+  background-color: #1c2127; }
+  main .title-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+    background: url(../img/piano-558452_1280.jpg) no-repeat;
+    background-size: cover; }
+    main .title-main h1 {
+      color: #ffffff;
+      font-family: Open Sans, sans-serif;
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 100px;
+      width: 1048px;
+      text-align: center;
+      margin: 0;
+      margin-top: 164px;
+      margin-bottom: 24px; }
+    main .title-main span {
+      color: #ffffff;
+      font-family: Open Sans, sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 29px;
+      text-transform: uppercase;
+      margin-right: 249px;
+      text-align: right;
+      width: 100%;
+      margin-bottom: 52px; }
+    main .title-main button {
+      height: 44px;
+      width: 380px;
+      border-radius: 7px;
+      box-shadow: 0 25px 15px -10px rgba(219, 83, 62, 0.15);
+      background: linear-gradient(181.56deg, #ea344a 0%, #ff6347 51.36%, #f15d44 100%);
+      color: #ffffff;
+      font-family: Open Sans, sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 29px;
+      margin-bottom: 200px;
+      border: 0;
+      outline: none; }
+  main .our-school {
+    width: 100%; }
+    main .our-school .img-our {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      align-items: center; }
+      main .our-school .img-our h2 {
+        margin-left: 102px;
+        color: #ffffff;
+        font-family: Open Sans, sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 37px;
+        text-transform: uppercase;
+        margin-top: 163px; }
+  main .piano {
+    display: flex;
+    transform: translateY(-55px); }
+    main .piano .img-oval-cl {
+      height: 522px;
+      width: 545px;
+      background: linear-gradient(201.7deg, #ea344a 0%, #f15d44 100%);
+      display: inline-block;
+      border-radius: 50%;
+      margin-left: -155px; }
+    main .piano .content-school {
+      margin-left: 59px;
+      margin-top: 17px;
+      display: flex;
+      flex-direction: column;
+      align-items: end; }
+      main .piano .content-school p {
+        height: 152px;
+        width: 641px;
+        color: #ffffff;
+        font-family: Open Sans, sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 29px;
+        margin-top: 0;
+        margin-bottom: 52px; }
+      main .piano .content-school button {
+        height: 44px;
+        width: 380px;
+        color: #f15d44;
+        font-family: Open Sans, sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 29px;
+        text-align: center;
+        background: none;
+        border: 2px solid #f15d44;
+        border-radius: 7px;
+        transition: 0.3s linear;
+        text-transform: uppercase; }
+      main .piano .content-school button:hover {
+        background: linear-gradient(201.7deg, #ea344a 0%, #f15d44 100%);
+        color: white; }
+      main .piano .content-school h2 {
+        color: #ffffff;
+        font-family: Open Sans, sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 37px;
+        margin-top: 62px;
+        margin-bottom: 67px; }
+      main .piano .content-school .every {
+        width: 674px;
+        height: 0; }
+  main .rot {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px; }
+    main .rot .rot-provide {
+      width: 761.44px;
+      transform: rotate(-4deg);
+      color: rgba(255, 255, 255, 0.1);
+      font-family: Open Sans, sans-serif;
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 61px;
+      text-transform: uppercase;
+      margin-right: -16px;
+      margin-bottom: 0; }
+
+.courses {
+  width: 100%;
+  margin-bottom: 50px; }
+  .courses h2 {
+    margin-left: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-family: Open Sans, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 37px;
+    text-transform: uppercase; }
+  .courses .all-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px; }
+    .courses .all-card .card-beg {
+      width: 380px; }
+      .courses .all-card .card-beg h3 {
+        text-align: center;
+        color: #ffffff;
+        font-family: Open Sans, sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 40px;
+        text-transform: uppercase;
+        width: 303px;
+        margin: 0 auto;
+        margin-bottom: 70px; }
+      .courses .all-card .card-beg h3:hover {
+        border-bottom: 1px solid #ea3749; }
+      .courses .all-card .card-beg .bed-content {
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2); }
+        .courses .all-card .card-beg .bed-content .one-list {
+          background: url(http://placehold.it/380x250) no-repeat;
+          height: 250px;
+          width: 380px;
+          display: flex;
+          justify-content: space-between; }
+          .courses .all-card .card-beg .bed-content .one-list .left {
+            display: flex;
+            flex-direction: column; }
+            .courses .all-card .card-beg .bed-content .one-list .left span:first-child {
+              margin-top: 16px;
+              margin-bottom: 12px;
+              border-radius: 3px;
+              background: linear-gradient(270deg, rgba(235, 51, 73, 0) 0%, #ea344a 100%);
+              padding: 9px 44px 8px 45px; }
+            .courses .all-card .card-beg .bed-content .one-list .left span {
+              color: #ffffff;
+              font-family: Open Sans, sans-serif;
+              font-size: 12px;
+              font-weight: 500;
+              line-height: 12px;
+              padding-left: 45px; }
+            .courses .all-card .card-beg .bed-content .one-list .left span:last-child {
+              background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+              padding: 9px 44px 8px 45px;
+              border-radius: 3px; }
+          .courses .all-card .card-beg .bed-content .one-list .right {
+            margin-top: 21px; }
+            .courses .all-card .card-beg .bed-content .one-list .right span {
+              border-radius: 3px;
+              background: linear-gradient(90deg, rgba(235, 51, 73, 0) 0%, #ea344a 100%);
+              padding: 7px 36px;
+              color: #ffffff;
+              font-family: Open Sans, sans-serif;
+              font-size: 12px;
+              font-weight: 500;
+              line-height: 12px;
+              position: relative; }
+            .courses .all-card .card-beg .bed-content .one-list .right span::after {
+              content: url(../img/icon/lock.svg);
+              position: absolute;
+              left: 12px; }
+        .courses .all-card .card-beg .bed-content .two-list {
+          display: flex;
+          flex-direction: column;
+          width: 355px;
+          margin: auto; }
+          .courses .all-card .card-beg .bed-content .two-list .btn-list {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0; }
+          .courses .all-card .card-beg .bed-content .two-list .title-list {
+            color: #ffffff;
+            font-family: Open Sans, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 28px; }
+          .courses .all-card .card-beg .bed-content .two-list span,
+          .courses .all-card .card-beg .bed-content .two-list p {
+            color: #ffffff;
+            font-family: Open Sans, sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 29px;
+            margin: 0; }
+          .courses .all-card .card-beg .bed-content .two-list .btn-list-one,
+          .courses .all-card .card-beg .bed-content .two-list .btn-list-two {
+            color: #ffffff;
+            font-family: Open Sans, sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 18px;
+            text-transform: uppercase;
+            padding: 5px 16px;
+            cursor: pointer; }
+          .courses .all-card .card-beg .bed-content .two-list .btn-list-one:hover {
+            color: #f15d44; }
+          .courses .all-card .card-beg .bed-content .two-list .btn-list-two:hover {
+            color: #f15d44; }
+    .courses .all-card .card-beg:nth-child(2) {
+      margin: 0 20px; }
+  .courses .button-cour {
+    display: flex;
+    justify-content: space-between;
+    width: 54%;
+    margin: auto;
+    margin-top: 52px; }
+    .courses .button-cour .one-btn,
+    .courses .button-cour .two-btn {
+      height: 44px;
+      width: 380px;
+      background: none;
+      padding: 0;
+      border: 2px solid #f15d44;
+      color: #f15d44;
+      font-family: Open Sans, sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 29px;
+      border-radius: 7px;
+      text-transform: uppercase; }
+    .courses .button-cour .one-btn:hover {
+      color: #ffffff;
+      background: linear-gradient(181.56deg, #ea344a 0%, #ff6347 51.36%, #f15d44 100%); }
+    .courses .button-cour .two-btn:hover {
+      color: #ffffff;
+      background: linear-gradient(181.56deg, #ea344a 0%, #ff6347 51.36%, #f15d44 100%); }
+
+/*# sourceMappingURL=style.css.map */
